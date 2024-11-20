@@ -9,9 +9,14 @@
     }
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "**/*.js",
+    "**/*.jsx",
+    ".expo/types/**/*.js",
+    ".expo/types/**/*.jsx",
+    "expo-env.d.ts",
+    "app/_layout.jsx",
+    "app/+not-found.jsx",
+    "app/index.jsx",
+    ".expo/types/**/*.ts"
   ]
 }
